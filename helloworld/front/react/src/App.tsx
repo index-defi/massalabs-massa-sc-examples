@@ -5,7 +5,7 @@ import { Message, messages } from "./messages";
 import "./App.css";
 
 const CONTRACT_ADDRESS =
-  "AS12s8GdFA6t6UGfZA1aoDgiuS77d1FxkDhfrJEuSGkupTLmnaYVd";
+  "AS1SfmdvS9h99rCcTztuAR94QMc62tqbYgrjc1qhgfiSi8fvFAFv";
 
 function App() {
   const [account, setAccount] = useState<IAccount | null>(null);
@@ -68,7 +68,7 @@ function App() {
         targetAddress: CONTRACT_ADDRESS,
         targetFunction: "getMessage",
         parameter: new Args(),
-        maxGas: BigInt(1000000),
+        maxGas: BigInt(2100000),
       });
 
       const decodedMessage = bytesToStr(result.returnValue);

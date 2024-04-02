@@ -1,0 +1,22 @@
+Wallet Address: AU12nGdXhNUJ5GiPJZFNaghHR6Ro5bQZ2yNUKJoYyUcNP6xrzgse2 has balance (candidate, final) = (499.999, 499.999)
+Sending operation with 0.1 MAS coins...
+Operation successfully submitted with id: O12bh3L5KVJtowWxGLUxHGSewHbJ8vV4yqnSm7bcUVmjhNVpHkdZ
+Waiting for events...
+Event Data Received: [
+  {
+    context: {
+      slot: [Object],
+      block: 'B1dsd4dR6iNdTjqjia1NEpypwssgJBUeEnmaB9HgCfd6Pyoqcw7',
+      read_only: false,
+      index_in_slot: 2,
+      call_stack: [Array],
+      origin_operation_id: 'O12bh3L5KVJtowWxGLUxHGSewHbJ8vV4yqnSm7bcUVmjhNVpHkdZ',
+      is_final: false,
+      is_error: false
+    },
+    data: 'Contract deployed at address: AS1SfmdvS9h99rCcTztuAR94QMc62tqbYgrjc1qhgfiSi8fvFAFv'
+  }
+]
+Awaiting FINAL transaction status....
+Transaction with Operation ID O12bh3L5KVJtowWxGLUxHGSewHbJ8vV4yqnSm7bcUVmjhNVpHkdZ has reached finality!
+
